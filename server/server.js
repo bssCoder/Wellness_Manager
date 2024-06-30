@@ -14,7 +14,7 @@ const port = process.env.PORT || 8080;
 const corsOptions = {
   origin: [
     'http://localhost:3000', 
-    'https://wellness-manager.vercel.app/'
+    'https://wellness-manager.vercel.app'
   ],
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   credentials: true 
