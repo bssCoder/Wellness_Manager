@@ -1,6 +1,6 @@
 import axios from "axios";
 
-axios.defaults.baseURL = process.env.REACT_APP_SERVER_DOMAIN;
+axios.defaults.baseURL = "https://wellness-manager.onrender.com/api";
 
 const fetchData = async (url) => {
   const { data } = await axios.get(url, {
